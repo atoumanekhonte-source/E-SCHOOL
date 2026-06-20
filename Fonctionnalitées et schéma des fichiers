@@ -1,0 +1,292 @@
+Fonctionnalités Complètes d’un Système de Gestion d’Établissement Scolaire
+1. 👤 Gestion des utilisateurs (rôles)
+✅ Authentification sécurisée (login, logout, mot de passe oublié)
+
+✅ Création de comptes (étudiants, enseignants, admin)
+
+✅ Tableau de bord personnalisé selon le rôle
+
+✅ Gestion des profils (photo, infos personnelles, mot de passe)
+
+✅ Déconnexion automatique après inactivité (sécurité)
+
+2. 🧑‍🎓 Gestion des étudiants
+📝 Inscription en ligne ou par l’administration
+
+📋 Liste des étudiants par classe/niveau
+
+🧾 Dossier académique complet (notes, absences, devoirs)
+
+📁 Téléchargement des documents officiels (certificat, relevé, bulletin)
+
+📥 Téléchargement des cours, TD, TC
+
+📡 Accès aux cours en direct ou en replay
+
+📱 Notifications des nouveaux devoirs, notes, absences
+
+3. 👨‍🏫 Gestion des enseignants
+👤 Création de compte enseignant
+
+📚 Gestion des matières assignées
+
+🗓️ Planification des cours (en ligne ou présentiel)
+
+📥 Dépôt de supports de cours (PDF, vidéos, PPT…)
+
+✏️ Saisie de notes
+
+📅 Saisie des absences
+
+📩 Envoi de devoirs, messages à la classe
+
+4. 📚 Cours en ligne (LIVE + Replay + Téléchargement)
+🔴 Direct (visioconférence)
+👨‍🏫 Planification d’un cours en ligne (date, heure, sujet)
+
+📎 Intégration Jitsi/Zoom/BigBlueButton
+
+🔴 Lancer le cours en direct depuis la plateforme
+
+🎥 Enregistrement du cours automatique ou manuel
+
+🔐 Accès réservé aux étudiants de la classe concernée
+
+🎞️ Replay (cours passés)
+📺 Liste des vidéos disponibles
+
+📅 Filtrage par matière, date, enseignant
+
+👀 Visionnage en ligne (streaming intégré)
+
+📥 Téléchargement des vidéos + fichiers associés (PDF, PowerPoint)
+
+📌 Indicateur "Déjà vu" ou "Non vu"
+
+🤖 Marquer l'étudiant comme "présent en différé" s’il regarde le replay
+
+5. 📝 Gestion des notes
+🧾 Saisie des notes par matière, trimestre ou semestre
+
+➕ Coefficients gérés automatiquement
+
+🧮 Calcul automatique des moyennes (par matière, par UE, par semestre)
+
+🧑‍⚖️ Délibérations automatiques ou manuelles
+
+📑 Génération des bulletins de notes (PDF imprimables)
+
+📤 Téléchargement par les étudiants
+
+6. 📅 Gestion de l’emploi du temps
+📌 Création d’emplois du temps par classe
+
+🧑‍🏫 Association des enseignants aux créneaux
+
+📱 Notification automatique à l’approche des cours
+
+⏰ Mise à jour en temps réel (affichage dynamique)
+
+📆 Calendrier mensuel/semaine/jour
+
+👨‍🎓 Emploi du temps personnel pour chaque étudiant/enseignant
+
+7. 📈 Suivi des absences
+✏️ Saisie des absences par l’enseignant (classe, date, heure)
+
+📨 Notification immédiate à l’étudiant (et parents optionnellement)
+
+📊 Statistiques d’assiduité (nombre de retards, absences par matière)
+
+📥 Justificatif à uploader par l’étudiant
+
+🤖 Suppression automatique de l’absence si l’étudiant revoit la vidéo du cours
+
+8. 📁 Devoirs (TD, TC, examens)
+👨‍🏫 Pour l’enseignant :
+📤 Déposer un devoir (PDF, Word, Excel…)
+
+📆 Fixer une date limite
+
+👁️ Voir les étudiants qui ont remis ou non
+
+👨‍🎓 Pour l’étudiant :
+📥 Télécharger le devoir
+
+📤 Remettre sa version (PDF, docx…)
+
+⏰ Notification de deadline
+
+🟢 Statut "Remis", "En retard", "Non remis"
+
+9. 🗃️ Gestion des matières, classes, filières, niveaux
+➕ Ajout, modification, suppression de :
+
+📘 Matières
+
+🏫 Classes / niveaux / filières
+
+📊 UE (Unités d’enseignement)
+
+📎 Association des matières aux classes et enseignants
+
+10. 🗃️ Documents pédagogiques
+📁 Dépôt de :
+
+Cours en PDF
+
+Fiches d’exercices
+
+Diaporamas
+
+Fichiers audio/vidéo
+
+📚 Organisation par matière, par classe
+
+🔍 Moteur de recherche de documents
+
+11. 📢 Messagerie interne & Notifications
+📩 Système de messagerie interne (enseignant ↔ étudiant)
+
+🔔 Notifications pour :
+
+Nouveaux cours déposés
+
+Nouveaux devoirs
+
+Nouvelles notes
+
+Absences signalées
+
+Cours en ligne à venir
+
+12. 📊 Statistiques et rapports
+📈 Nombre d’étudiants par filière, par sexe, par classe
+
+📉 Taux d’absences, taux de réussite
+
+📊 Moyenne générale par classe, par matière
+
+📄 Export Excel/PDF des bulletins, absences, listes
+
+13. ⚙️ Paramètres & sécurité
+🔐 Gestion des rôles et autorisations (Admin, Prof, Étudiant)
+
+🧠 Sauvegarde automatique de la base de données
+
+🔍 Historique des connexions et activités
+
+🕵️ Détection de triche/plagiat (optionnel)
+
+🔑 Changement de mot de passe
+
+📜 CGU/Politique de confidentialité
+
+14. 🌍 Fonctionnalités complémentaires
+🌐 Multilingue (Français, Anglais, Arabe, etc.)
+
+🎓 Espace parents (accès aux notes, absences…)
+
+🎥 Intégration YouTube/Vimeo pour les cours vidéo
+
+🧾 Paiement des frais de scolarité en ligne (Orange Money, Wave)
+
+📥 Téléchargement des attestations (scolarité, présence)
+
+📞 Contact direct administration / support
+
+✅ BONUS : Tableaux de bord
+🧑‍🎓 Étudiant :
+Derniers cours disponibles
+
+Notes récentes
+
+Absences notées
+
+Emploi du temps du jour
+
+Liens de cours en ligne
+
+👨‍🏫 Enseignant :
+Cours du jour
+
+Notes à saisir
+
+Devoirs en attente de correction
+
+Cours en ligne à lancer
+
+👨‍💼 Admin :
+Résumé des effectifs
+
+Alertes (devoirs non corrigés, cours non programmés…)
+
+Gestion des comptes
+
+Gestion du contenu pédagogique
+
+/gestion_school/
+│
+├── index.php                      ← ✅ Page de connexion (publique)
+├── logout.php                     ← 🔒 Déconnexion
+├── register.php                   ← 🔒 Page d’inscription (admin uniquement)
+│
+├── /config/
+│   ├── db.php                     ← 🔌 Connexion MySQL (mysqli ou PDO)
+│   └── config.php                 ← Constantes globales (site name, etc.)
+│
+├── /includes/
+│   ├── auth.php                   ← 🔐 Gestion de session + rôles
+│   ├── header.php                 ← 🧩 En-tête HTML
+│   ├── footer.php                 ← 🧩 Pied de page HTML
+│   └── helpers.php                ← ⚙️ Fonctions utilitaires (formatage, dates, etc.)
+│
+├── /uploads/
+│   ├── profiles/
+│   ├── cours/                     ← 📚 PDF, Word, etc. des cours déposés
+│   ├── videos/                    ← 🎥 Vidéos des cours enregistrés
+│   └── devoirs/                   ← 📥 Fichiers remis par les étudiants
+│── /dashboard/
+│   ├── /admin/
+│   │   ├── index.php                   ← 🧑‍💼 Tableau de bord admin
+│   │   ├── inscrire_etudiant.php       ← Formulaire d’ajout étudianta
+│   │   ├── inscrire_enseignant.php     ← Formulaire d’ajout prof
+│   │   ├── gestion_utilisateurs.php    ← Liste/édition/suppression/ajoute
+│   │   ├── gestion_classes.php          Liste/édition/suppression/ajoute
+│   │   ├── gestion_matieres.php         Liste/édition/suppression/joute
+│   │   ├── gestion_absences.php         Liste/édition/suppression/ajoute
+│   │   ├── emploi_temps.php             Liste/édition/suppression/ajoute
+│   │   ├── notifications.php            Liste/édition/suppression/ajoute
+│   │   ├── statistiques.php             ← 🔍 (absences, notes, etc.)
+│   │   └── parametres.php               ← 🔧
+│   ├── /enseignant/
+│   │   ├── index.php                ← 🧑‍💼 Tableau de bord Enseignant
+│   │   ├── deposer_cours.php        Liste/édition/suppression/ajoute
+│   │   ├── enregistrer_cours.php    Liste/édition/suppression/ajoute
+│   │   ├── deposer_td.php           Liste/édition/suppression/ajoute
+│   │   ├── noter_etudiants.php      Liste/édition/suppression/ajoute
+│   │   ├── voir_devoirs.php         Liste/édition/suppression/ajoute
+│   │   └── messagerie.              Liste/édition/suppression/ajoute
+│   │
+│   ├── /etudiant/
+│   │   ├── index.php               ← 🧑‍💼 Tableau de bord etudiant
+│   │   ├── mes_cours.php
+│   │   ├── voir_videos.php
+│   │   ├── telecharger_td.php
+│   │   ├── remettre_td.php
+│   │   ├── mes_notes.php
+│   │   ├── emploi_temps.php
+│   │   └── messagerie.php
+│      
+├── /assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   ├── images/
+│   │   └── logo.png
+│   └── bootstrap/ (ou CDN)
+│
+└── /sql/
+    └── gestion_school.sql       ← 📦 Script SQL complet
+
